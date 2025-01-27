@@ -167,22 +167,19 @@ ul.fontlist {
 ul.fontlist li {
   text-align: left;
   display: inline-block;
-  width: 400px;
-  height: 100px;
   vertical-align: top;
   border: 1px solid #ddd;
   border-spacing: 0.7em;
   background: white;
   border-radius: 4px;
   box-shadow: 2px 2px 8px rgba(0,0,0,.08);
-  margin: 0 20px 20px 0;
-  padding: .4em .8em;
+  margin: 0 5px 5px 0;
+  padding: .4em .4em;
   overflow: hidden;
 }
 
 ul.fontlist li > header {
   color: #888;
-  margin-bottom: .5em;
 }
 
 ul.fontlist .installed {

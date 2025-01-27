@@ -1,5 +1,5 @@
 // Constants.
-var SAMPLE_WIDTH = 380,
+var SAMPLE_WIDTH = 200,
     SAMPLE_HEIGHT = 50,
     DEFAULT_SAMPLE_TEXT = "Sample text";
 
