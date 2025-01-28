@@ -1,5 +1,5 @@
 // Constants.
-var SAMPLE_WIDTH = 200,
+var SAMPLE_WIDTH = 250,
     SAMPLE_HEIGHT = 50,
     DEFAULT_SAMPLE_TEXT = "Sample text";
 
@@ -94,7 +94,7 @@ function fontsInFolder(dir) {
       return;
     }
     fonts = data;
-    status("Showing fonts in " + dir);
+    status(`Showing ${data.length} fonts in ` + dir);
 
     // We show all fonts but don't display the previews yet.
     var block = $("<ul/>").attr("class","fontlist");
